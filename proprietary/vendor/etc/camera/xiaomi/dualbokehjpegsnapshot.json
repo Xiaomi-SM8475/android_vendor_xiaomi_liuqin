@@ -1,0 +1,49 @@
+{
+  "PipelineName": "DualBokehJpegSnapshot",
+  "NodesList": {
+      "Node": [
+      {
+          "NodeName": "com.xiaomi.plugin.memcpy",
+          "NodeInstance": "MemcpyInstance0"
+      },
+      {
+          "NodeName": "com.xiaomi.plugin.memcpy",
+          "NodeInstance": "MemcpyInstance1"
+      }
+    ]
+  },
+  "PortLinkages": {
+      "Link": [
+      {
+          "SrcPort": {
+              "PortId": 0,
+              "NodeInstance": "SourceBuffer0"
+          },
+          "DstPort": {
+              "PortId": 0,
+              "NodeInstance": "MemcpyInstance0"
+          }
+      },
+      {
+        "SrcPort": {
+            "PortId": 1,
+            "NodeInstance": "SourceBuffer1"
+        },
+        "DstPort": {
+            "PortId": 1,
+            "NodeInstance": "MemcpyInstance1"
+        }
+      },
+      {
+          "SrcPort": {
+              "PortId": 0,
+              "NodeInstance": "MemcpyInstance0"
+          },
+          "DstPort": {
+              "PortId": 0,
+              "NodeInstance": "SinkBuffer"
+          }
+      }
+      ]
+  }
+}

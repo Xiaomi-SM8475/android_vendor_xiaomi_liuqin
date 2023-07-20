@@ -1,0 +1,55 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "Dragon", "Surf", "QRD"],
+    "soc_id": ["531", "530"]
+  },
+  "dbtap":{
+    "owner": "sns_dbtap",
+    ".times":{
+      "owner": "sns_dbtap",
+      "ALGO_DBP_maxTimeForThree":{
+        "ver": "0", "type": "flt", "data": "400"
+      }
+    },
+    ".GroVal":{
+      "owner": "sns_dbtap",
+      "ALGO_DBP_minGro":{
+        "ver": "0", "type": "flt", "data": "0.2"
+      },
+      "ALGO_DBP_minGroPeak_Pos":{
+        "ver": "0", "type": "flt", "data": "-0.03"
+      },
+      "ALGO_DBP_maxGroPeak_Pos":{
+        "ver": "0", "type": "flt", "data": "0.03"
+      }
+    },
+    ".AccVal":{
+      "owner": "sns_dbtap",
+      "ALGO_DBP_AccSHOLD":{
+        "ver": "0", "type": "flt", "data": "0.3"
+      },
+      "ALGO_DBP_minAcc":{
+        "ver": "0", "type": "flt", "data": "0.4"
+      },
+      "ALGO_DBP_AccSlope":{
+        "ver": "0", "type": "flt", "data": "0.45"
+      }
+    },
+    ".Accxy":{
+      "owner": "sns_dbtap",
+      "ALGO_DBP_maxAccx":{
+        "ver": "0", "type": "flt", "data": "3.6"
+      },
+      "ALGO_DBP_maxAccy":{
+        "ver": "0", "type": "flt", "data": "1.9"
+      },
+      "ALGO_DBP_deltaAccx":{
+        "ver": "0", "type": "flt", "data": "4"
+      },
+      "ALGO_DBP_deltaAccy":{
+        "ver": "0", "type": "flt", "data": "2"
+      }
+    }
+  }
+}

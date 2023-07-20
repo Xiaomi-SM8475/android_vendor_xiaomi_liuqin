@@ -1,0 +1,51 @@
+{
+  "PipelineName": "rearsupernightsnapshot",
+  "NodesList": {
+    "Node": [
+        {
+            "NodeName": "com.xiaomi.plugin.arcsoftsll",
+            "NodeInstance": "ArcsoftSLLInstance0",
+            "NodePropertyId" : 16
+          },
+          {
+            "NodeName": "com.xiaomi.plugin.offlinepostproc",
+            "NodeInstance": "IdealRaw2YuvInstance0",
+            "NodePropertyId" : 12
+          }
+    ]
+  },
+  "PortLinkages": {
+      "Link": [
+      {
+          "SrcPort": {
+              "PortId": 0,
+              "NodeInstance": "SourceBuffer"
+          },
+          "DstPort": {
+              "PortId": 0,
+              "NodeInstance": "ArcsoftSLLInstance0"
+          }
+      },
+      {
+        "SrcPort": {
+            "PortId": 0,
+            "NodeInstance": "ArcsoftSLLInstance0"
+        },
+        "DstPort": {
+            "PortId": 0,
+            "NodeInstance": "IdealRaw2YuvInstance0"
+        }
+    },
+      {
+          "SrcPort": {
+              "PortId": 0,
+              "NodeInstance": "IdealRaw2YuvInstance0"
+          },
+          "DstPort": {
+              "PortId": 0,
+              "NodeInstance": "SinkBuffer"
+          }
+      }
+      ]
+  }
+}

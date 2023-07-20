@@ -1,0 +1,520 @@
+{
+  "config": {
+    "hw_platform": [
+      "MTP", "Dragon", "Surf", "QRD"
+    ],
+    "soc_id": [
+      "531", "530"
+    ]
+  },
+  "akm_fusion":{
+    "owner": "sns_akm_fusion",
+    ".condition":{
+      "owner": "sns_akm_fusion",
+      "0":{ "type": "flt", "ver": "0",
+        "data": "1.0"
+      },
+      "1":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "2":{ "type": "flt", "ver": "1",
+        "data": "1.0"
+      },
+      "3":{ "type": "flt", "ver": "1",
+        "data": "0.0"
+      },
+      "4":{ "type": "flt", "ver": "0",
+        "data": "1.0"
+      },
+      "5":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "6":{ "type": "flt", "ver": "0",
+        "data": "18.0"
+      },
+      "7":{ "type": "flt", "ver": "2",
+        "data": "24500.0"
+      },
+      "8":{ "type": "flt", "ver": "2",
+        "data": "50000.0"
+      },
+      "9":{ "type": "flt", "ver": "2",
+        "data": "5500.0"
+      },
+      "10":{ "type": "flt", "ver": "2",
+        "data": "2000.0"
+      },
+      "11":{ "type": "flt", "ver": "2",
+        "data": "-50000.0"
+      },
+      "12":{ "type": "flt", "ver": "2",
+        "data": "-15500.0"
+      },
+      "13":{ "type": "flt", "ver": "1",
+        "data": "6000.0"
+      },
+      "14":{ "type": "flt", "ver": "0",
+        "data": "1000.0"
+      },
+      "15":{ "type": "flt", "ver": "1",
+        "data": "7000.0"
+      },
+      "16":{ "type": "flt", "ver": "1",
+        "data": "110.0"
+      },
+      "17":{ "type": "flt", "ver": "1",
+        "data": "30.0"
+      },
+      "18":{ "type": "flt", "ver": "0",
+        "data": "10.0"
+      }
+    },
+    ".tab_x":{
+      "owner": "sns_akm_fusion",
+      "0":{ "type": "flt", "ver": "1",
+        "data": "6442"
+      },
+      "1":{ "type": "flt", "ver": "1",
+        "data": "6769"
+      },
+      "2":{ "type": "flt", "ver": "1",
+        "data": "7174"
+      },
+      "3":{ "type": "flt", "ver": "1",
+        "data": "7635"
+      },
+      "4":{ "type": "flt", "ver": "1",
+        "data": "8139"
+      },
+      "5":{ "type": "flt", "ver": "1",
+        "data": "8677"
+      },
+      "6":{ "type": "flt", "ver": "1",
+        "data": "9259"
+      },
+      "7":{ "type": "flt", "ver": "1",
+        "data": "9917"
+      },
+      "8":{ "type": "flt", "ver": "1",
+        "data": "10663"
+      },
+      "9":{ "type": "flt", "ver": "1",
+        "data": "11468"
+      },
+      "10":{ "type": "flt", "ver": "1",
+        "data": "12335"
+      },
+      "11":{ "type": "flt", "ver": "1",
+        "data": "13192"
+      },
+      "12":{ "type": "flt", "ver": "1",
+        "data": "14072"
+      },
+      "13":{ "type": "flt", "ver": "1",
+        "data": "14924"
+      },
+      "14":{ "type": "flt", "ver": "1",
+        "data": "15668"
+      },
+      "15":{ "type": "flt", "ver": "1",
+        "data": "16418"
+      },
+      "16":{ "type": "flt", "ver": "1",
+        "data": "17160"
+      },
+      "17":{ "type": "flt", "ver": "1",
+        "data": "17882"
+      },
+      "18":{ "type": "flt", "ver": "1",
+        "data": "18757"
+      }
+    },
+    ".tab_y":{
+      "owner": "sns_akm_fusion",
+      "0":{ "type": "flt", "ver": "1",
+         "data": "-119"
+      },
+      "1":{ "type": "flt", "ver": "1",
+        "data": "-128"
+      },
+      "2":{ "type": "flt", "ver": "1",
+        "data": "-141"
+      },
+      "3":{ "type": "flt", "ver": "1",
+        "data": "-155"
+      },
+      "4":{ "type": "flt", "ver": "1",
+        "data": "-168"
+      },
+      "5":{ "type": "flt", "ver": "1",
+        "data": "-183"
+      },
+      "6":{ "type": "flt", "ver": "1",
+        "data": "-199"
+      },
+      "7":{ "type": "flt", "ver": "1",
+        "data": "-216"
+      },
+      "8":{ "type": "flt", "ver": "1",
+        "data": "-237"
+      },
+      "9":{ "type": "flt", "ver": "1",
+        "data": "-259"
+      },
+      "10":{ "type": "flt", "ver": "1",
+        "data": "-282"
+      },
+      "11":{ "type": "flt", "ver": "1",
+        "data": "-307"
+      },
+      "12":{ "type": "flt", "ver": "1",
+        "data": "-332"
+      },
+      "13":{ "type": "flt", "ver": "1",
+        "data": "-354"
+      },
+      "14":{ "type": "flt", "ver": "1",
+        "data": "-372"
+      },
+      "15":{ "type": "flt", "ver": "1",
+        "data": "-390"
+      },
+      "16":{ "type": "flt", "ver": "1",
+        "data": "-406"
+      },
+      "17":{ "type": "flt", "ver": "1",
+        "data": "-425"
+      },
+      "18":{ "type": "flt", "ver": "1",
+        "data": "-443"
+      }
+    },
+    ".tab_z":{
+      "owner": "sns_akm_fusion",
+      "0":{ "type": "flt", "ver": "1",
+        "data": "1772"
+      },
+      "1":{ "type": "flt", "ver": "1",
+        "data": "1465"
+      },
+      "2":{ "type": "flt", "ver": "1",
+        "data": "1067"
+      },
+      "3":{ "type": "flt", "ver": "1",
+        "data": "674"
+      },
+      "4":{ "type": "flt", "ver": "1",
+        "data": "271"
+      },
+      "5":{ "type": "flt", "ver": "1",
+        "data": "-145"
+      },
+      "6":{ "type": "flt", "ver": "1",
+        "data": "-586"
+      },
+      "7":{ "type": "flt", "ver": "1",
+        "data": "-1063"
+      },
+      "8":{ "type": "flt", "ver": "1",
+        "data": "-1596"
+      },
+      "9":{ "type": "flt", "ver": "1",
+        "data": "-2188"
+      },
+      "10":{ "type": "flt", "ver": "1",
+        "data": "-2859"
+      },
+      "11":{ "type": "flt", "ver": "1",
+        "data": "-3594"
+      },
+      "12":{ "type": "flt", "ver": "1",
+        "data": "-4445"
+      },
+      "13":{ "type": "flt", "ver": "1",
+        "data": "-5452"
+      },
+      "14":{ "type": "flt", "ver": "1",
+        "data": "-6493"
+      },
+      "15":{ "type": "flt", "ver": "1",
+        "data": "-7565"
+      },
+      "16":{ "type": "flt", "ver": "1",
+        "data": "-8712"
+      },
+      "17":{ "type": "flt", "ver": "1",
+        "data": "-9942"
+      },
+      "18":{ "type": "flt", "ver": "1",
+        "data": "-10807"
+      }
+    },
+    ".lv":{
+      "owner": "sns_akm_fusion",
+      "0":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "1":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "2":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "3":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "4":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "5":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "6":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "7":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "8":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "9":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "10":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "11":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "12":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "13":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "14":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "15":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "16":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "17":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "18":{ "type": "flt", "ver": "1",
+        "data": "0"
+      }
+    },
+    ".lv_orignal":{
+      "owner": "sns_akm_fusion",
+      "0":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "1":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "2":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "3":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "4":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "5":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "6":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "7":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "8":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "9":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "10":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "11":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "12":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "13":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "14":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "15":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "16":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "17":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "18":{ "type": "flt", "ver": "1",
+        "data": "0"
+      }
+    },
+    ".subinfo":{
+      "owner": "sns_akm_fusion",
+      "0":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "1":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "2":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "3":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "4":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "5":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "6":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "7":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "8":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "9":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "10":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "11":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "12":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "13":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "14":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "15":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "16":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "17":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "18":{ "type": "flt", "ver": "1",
+        "data": "0"
+      }
+    },
+    ".subinfo_orignal":{
+      "owner": "sns_akm_fusion",
+      "0":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "1":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "2":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "3":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "4":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "5":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "6":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "7":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "8":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "9":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "10":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "11":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "12":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "13":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "14":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "15":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "16":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "17":{ "type": "flt", "ver": "1",
+        "data": "0"
+      },
+      "18":{ "type": "flt", "ver": "1",
+        "data": "0"
+      }
+    },
+    ".dynamic":{
+      "owner": "sns_akm_fusion",
+      "5":{ "type": "flt", "ver": "0",
+        "data": "7000.0"
+      },
+      "12":{ "type": "flt", "ver": "0",
+        "data": "-0.25"
+      },
+      "14":{ "type": "flt", "ver": "0",
+        "data": "10.0"
+      },
+      "8":{ "type": "flt", "ver": "0",
+        "data": "7000.0"
+      },
+      "13":{ "type": "flt", "ver": "0",
+        "data": "0.25"
+      },
+      "15":{ "type": "flt", "ver": "0",
+        "data": "10.0"
+      }
+    },
+    ".result":{
+      "owner": "sns_akm_fusion",
+      "ret":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    }
+  }
+}

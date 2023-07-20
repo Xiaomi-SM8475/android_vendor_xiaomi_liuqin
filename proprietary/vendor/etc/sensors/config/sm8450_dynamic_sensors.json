@@ -1,0 +1,11 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Dragon", "Surf", "QRD"],
+    "soc_id": ["531", "530"]
+  },
+
+  "sns_dynamic_sensors":
+  {
+    "owner":"sns_dynamic_sensors",
+  }
+}
