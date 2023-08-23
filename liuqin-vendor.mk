@@ -217,10 +217,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/charger_fw_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fw_fstab.qti \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/configstore/vpp.configstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/configstore/vpp.configstore.xml \
-    vendor/xiaomi/liuqin/proprietary/vendor/etc/display/DPU660.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU660.xml \
-    vendor/xiaomi/liuqin/proprietary/vendor/etc/display/DPU670.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU670.xml \
-    vendor/xiaomi/liuqin/proprietary/vendor/etc/display/DPU720.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU720.xml \
-    vendor/xiaomi/liuqin/proprietary/vendor/etc/display/DPU7__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU7__.xml \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/display/DPU820.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU820.xml \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/display/DPU8__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU8__.xml \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
@@ -439,21 +435,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/liuqin/proprietary/vendor/firmware/TR-cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TR-cs35l41-dsp1-spk-prot.bin \
     vendor/xiaomi/liuqin/proprietary/vendor/firmware/TR-music.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/TR-music.txt \
     vendor/xiaomi/liuqin/proprietary/vendor/firmware/TR-voice.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/TR-voice.txt \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a660_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_sqe.fw \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a662_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a662_gmu.bin \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a662_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a662_zap.b00 \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a662_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a662_zap.b01 \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a662_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a662_zap.b02 \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a662_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a662_zap.elf \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a662_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a662_zap.mbn \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a662_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a662_zap.mdt \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a710_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a710_sqe.fw \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a710_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a710_zap.b00 \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a710_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a710_zap.b01 \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a710_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a710_zap.b02 \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a710_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a710_zap.elf \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a710_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a710_zap.mbn \
-    vendor/xiaomi/liuqin/proprietary/vendor/firmware/a710_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a710_zap.mdt \
     vendor/xiaomi/liuqin/proprietary/vendor/firmware/a730_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_sqe.fw \
     vendor/xiaomi/liuqin/proprietary/vendor/firmware/a730_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_zap.b00 \
     vendor/xiaomi/liuqin/proprietary/vendor/firmware/a730_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a730_zap.b01 \
