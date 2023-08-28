@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- These overrides are shared between Large Screen build targets. -->
+<overrides>
+    <!-- ALLOW_COMMUNAL_MODE_BY_DEFAULT -->
+    <change-overrides changeId="203673428">
+        <validated>
+            <override-value packageName="com.google.assistant.hubui" enabled="true">
+            </override-value>
+        </validated>
+    </change-overrides>
+    <!-- ALLOW_COMMUNAL_MODE_WITH_USER_CONSENT -->
+    <change-overrides changeId="200324021">
+        <validated>
+            <override-value packageName="com.goog.titan.media" enabled="true">
+            </override-value>
+        </validated>
+    </change-overrides>
+    <!-- OVERRIDE_ENABLE_COMPAT_FAKE_FOCUS -->
+    <change-overrides changeId="263259275">
+        <validated>
+            <!-- Pixel Art - colour by numbers -->
+            <override-value packageName="com.europosit.pixelcoloring" enabled="true" />
+            <!-- Digit Shooter! -->
+            <override-value packageName="com.luna.shootingnumbers" enabled="true" />
+            <!-- Rainbow Impostor Survival 3D -->
+            <override-value packageName="com.xd.rainbow.survivor" enabled="true" />
+            <!-- Snow Race!! -->
+            <override-value packageName="jp.co.goodroid.hyper.snow" enabled="true" />
+            <!-- Soccer Super Star - Football -->
+            <override-value packageName="com.soccer.score.star" enabled="true" />
+            <!-- Hunt & Seek -->
+            <override-value packageName="com.kwalee.transformhunt" enabled="true" />
+            <!-- Magic Tiles 3 -->
+            <override-value packageName="com.youmusic.magictiles" enabled="true" />
+            <!-- Block Puzzle Sudoku -->
+            <override-value packageName="com.gafv.puzzle.game.classic.blockpuzzle.wood" enabled="true" />
+            <!-- Coin Master -->
+            <override-value packageName="com.moonactive.coinmaster" enabled="true" />
+            <!-- Phone Case DIY -->
+            <override-value packageName="com.newnormalgames.phonecasediy" enabled="true" />
+            <!-- Super Toy 3D -->
+            <override-value packageName="com.surprise.toy.d3" enabled="true" />
+            <!-- Speed Train -->
+            <override-value packageName="com.Upperpik.SpeedTrain" enabled="true" />
+            <!-- Coffee Stack -->
+            <override-value packageName="markergame.coffeestack" enabled="true" />
+            <!-- My Perfect Hotel -->
+            <override-value packageName="com.master.hotelmaster" enabled="true" />
+            <!-- Save the Doge -->
+            <override-value packageName="com.miracle.savethedoge.an" enabled="true" />
+            <!-- Crowd Evolution! -->
+            <override-value packageName="com.longhorn.countmasterevo" enabled="true" />
+            <!-- Tiles Hop: EDM Rush! -->
+            <override-value packageName="com.amanotes.beathopper" enabled="true" />
+            <!-- Evony: The King's Return -->
+            <override-value packageName="com.topgamesinc.evony" enabled="true" />
+            <!-- Garena Free Fire: Booyah Day -->
+            <override-value packageName="com.dts.freefireth" enabled="true" />
+            <!-- Mobile Legeneds: Bang Bang -->
+            <override-value packageName="com.mobile.legends" enabled="true" />
+            <!-- Call of Duty Mobile Season 1 -->
+            <override-value packageName="com.activision.callofduty.shooter" enabled="true" />
+            <!-- Garena RoV: Lunar New Year -->
+            <override-value packageName="com.garena.game.kgth" enabled="true" />
+            <!-- SortPuz: Water Sort Puzzle -->
+            <override-value packageName="sortpuz.water.sort.puzzle.game" enabled="true" />
+            <!-- Pooking - Billiards City -->
+            <override-value packageName="com.billiards.city.pool.nation.club" enabled="true" />
+            <!-- Rope Hero: Vice Town -->
+            <override-value packageName="com.mgc.RopeHero.ViceTown" enabled="true" />
+            <!-- My Talking Tom -->
+            <override-value packageName="com.outfit7.mytalkingtomfree" enabled="true" />
+            <!-- Among Us -->
+            <override-value packageName="com.innersloth.spacemafia" enabled="true" />
+            <!-- The Eminence in Shadow RPG -->
+            <override-value packageName="com.crunchyroll.eminenceinshadowrpg" enabled="true" />
+            <!-- Traffic Racer -->
+            <override-value packageName="com.skgames.trafficracer" enabled="true" />
+            <!-- Talking Tom Hero Dash -->
+            <override-value packageName="com.outfit7.herodash" enabled="true" />
+            <!-- Real Bike Racing -->
+            <override-value packageName="com.wordsmobile.RealBikeRacing" enabled="true" />
+            <!-- Cat Runner: Decorate Home -->
+            <override-value packageName="com.solou.catendless.run" enabled="true" />
+            <!-- Banana Kong -->
+            <override-value packageName="com.fdgentertainment.bananakong" enabled="true" />
+            <!-- Love Balls -->
+            <override-value packageName="com.supertapx.lovedots" enabled="true" />
+            <!-- Save The Girl -->
+            <override-value packageName="com.xmgame.savethegirl" enabled="true" />
+            <!-- Perfect Cream: Dessert Games -->
+            <override-value packageName="com.playgendary.creamaster" enabled="true" />
+            <!-- Drive for Speed: Simulator -->
+            <override-value packageName="com.mastercomlimited.cardriving_t" enabled="true" />
+            <!-- Free Fire MAX -->
+            <override-value packageName="com.dts.freefiremax" enabled="true" />
+            <!-- Garena Lien Quan Mobile -->
+            <override-value packageName="com.garena.game.kgvn" enabled="true" />
+            <!-- League of Legends: Wild Rift -->
+            <override-value packageName="com.riotgames.league.wildrift" enabled="true" />
+            <!-- Parchisi STAR Online -->
+            <override-value packageName="com.superking.parchisi.star" enabled="true" />
+            <!-- Subway Princess Runner -->
+            <override-value packageName="com.rioo.runnersubway" enabled="true" />
+            <!-- PK XD: Fun, friends & games -->
+            <override-value packageName="com.movile.playkids.pkxd" enabled="true" />
+            <!-- Wood Block Puzzle - Brain Game -->
+            <override-value packageName="puzzle.blockpuzzle.cube.relax" enabled="true" />
+            <!-- My Talking Angela -->
+            <override-value packageName="com.outfit7.mytalkingangelafree" enabled="true" />
+            <!-- Kick the Buddy -->
+            <override-value packageName="com.playgendary.kickthebuddy" enabled="true" />
+            <!-- Join Clash 3D -->
+            <override-value packageName="com.freeplay.runandfight" enabled="true" />
+            <!-- Tomb of the Mask -->
+            <override-value packageName="com.playgendary.tom" enabled="true" />
+            <!-- Dancing Road: Color Ball Run! -->
+            <override-value packageName="com.amanotes.pamadancingroad" enabled="true" />
+            <!-- Vector: Parkour Run -->
+            <override-value packageName="com.nekki.vector" enabled="true" />
+            <!-- Hello Kitty Nail Salon -->
+            <override-value packageName="com.budgestudios.HelloKittyNailSalon" enabled="true" />
+            <!-- Bottle Flip 3D -->
+            <override-value packageName="pampam.ibf2" enabled="true" />
+            <!-- PAC-MAN -->
+            <override-value packageName="com.namcobandaigames.pacmantournaments" enabled="true" />
+            <!-- Granny: Chapter Two -->
+            <override-value packageName="com.dvloper.grannychaptertwo" enabled="true" />
+            <!-- Bus Simulator: Ultimate -->
+            <override-value packageName="com.zuuks.bus.simulator.ultimate" enabled="true" />
+            <!-- Marvel Contest of Champions -->
+            <override-value packageName="com.kabam.marvelbattle" enabled="true" />
+            <!-- Subway Surfers -->
+            <override-value packageName="com.kiloo.subwaysurf" enabled="true" />
+            <!-- 8 Ball Pool -->
+            <override-value packageName="com.miniclip.eightballpool" enabled="true" />
+            <!-- Bubble Shooter -->
+            <override-value packageName="bubbleshooter.orig" enabled="true" />
+            <!-- Carrom Pool: Disc Game -->
+            <override-value packageName="com.miniclip.carrom" enabled="true" />
+            <!-- Talking Tom Gold Run -->
+            <override-value packageName="com.outfit7.talkingtomgoldrun" enabled="true" />
+            <!-- Galaxy Attack: Alien Shooting -->
+            <override-value packageName="com.alien.shooter.galaxy.attack" enabled="true" />
+            <!-- My Talking Hank -->
+            <override-value packageName="com.outfit7.mytalkinghank" enabled="true" />
+            <!-- Truck Simulator: Europe -->
+            <override-value packageName="com.zuuks.truck.simulator.euro" enabled="true" />
+            <!-- 3D Bowling -->
+            <override-value packageName="com.threed.bowling" enabled="true" />
+            <!-- PUBG Mobile -->
+            <override-value packageName="com.tencent.ig" enabled="true" />
+            <!-- Bricks Breaker Quest -->
+            <override-value packageName="com.mobirix.swipebrick2" enabled="true" />
+            <!-- Bubble Shooter and Friends -->
+            <override-value packageName="com.sukhavati.gotoplaying.bubble.BubbleShooter.mint" enabled="true" />
+            <!-- Puzzles & Survival -->
+            <override-value packageName="com.global.ztmslg" enabled="true" />
+            <!-- Last Fortress: Underground -->
+            <override-value packageName="com.more.lastfortress.gp" enabled="true" />
+            <!-- Mafia City -->
+            <override-value packageName="com.yottagames.mafiawar" enabled="true" />
+            <!-- The Grand Mafia -->
+            <override-value packageName="com.yottagames.gameofmafia" enabled="true" />
+            <!-- The Walking Dead: Survivors -->
+            <override-value packageName="com.elex.twdsaw.gp" enabled="true" />
+            <!-- Slots: Heart of Vegas Casino -->
+            <override-value packageName="com.productmadness.hovmobile" enabled="true" />
+            <!-- The Ants: Underground Kingdom -->
+            <override-value packageName="com.star.union.planetant" enabled="true" />
+            <!-- Lily's Garden -->
+            <override-value packageName="dk.tactile.lilysgarden" enabled="true" />
+            <!-- Kingdom Guard: Tower Defense TD -->
+            <override-value packageName="com.tap4fun.odin.kingdomguard" enabled="true" />
+            <!-- Azur Lane -->
+            <override-value packageName="com.YoStarJP.AzurLane" enabled="true" />
+            <!-- Melon Playground -->
+            <override-value packageName="com.studio27.MelonPlayground" enabled="true" />
+            <!-- Primitive Era: 10000 BC -->
+            <override-value packageName="com.tg.ysrgb.gp" enabled="true" />
+            <!-- Snake Run Race - 3D Running Game -->
+            <override-value packageName="com.snakeattack.game" enabled="true" />
+            <!-- Block Blast Adventure Master -->
+            <override-value packageName="com.block.juggle" enabled="true" />
+            <!-- UNO! -->
+            <override-value packageName="com.matteljv.uno" enabled="true" />
+            <!-- Muscle Race 3D -->
+            <override-value packageName="jp.co.goodroid.hyper.muscle" enabled="true" />
+            <!-- Block Puzzle: Jewel Blast -->
+            <override-value packageName="games.puzzlegames.jewel.block.puzzle" enabled="true" />
+            <!-- Ragnarok Origin -->
+            <override-value packageName="com.gravity.roona.aos" enabled="true" />
+            <!-- Sort Water Puzzle - Color Game -->
+            <override-value packageName="sort.water.puzzle.pour.color.tubes.sorting.game" enabled="true" />
+            <!-- Destiny Run -->
+            <override-value packageName="com.CharityRun.game" enabled="true" />
+        </validated>
+    </change-overrides>
+    <!-- OVERRIDE_CAMERA_COMPAT_DISABLE_FORCE_ROTATION -->
+    <change-overrides changeId="263959004">
+        <validated>
+            <!-- CTSVerifier -->
+            <override-value packageName="com.android.cts.verifier" enabled="true" />
+        </validated>
+    </change-overrides>
+    <!-- TODO(b/174964885): Move foldable overrides out in a separate build target. -->
+    <!-- ALLOW_INNER_FRONT_LANDSCAPE_MODE_BY_DEFAULT -->
+    <change-overrides changeId="250678880">
+        <validated>
+            <!-- Google Camera and it's flavours -->
+            <override-value packageName="com.google.android.GoogleCamera" enabled="disable" />
+            <override-value packageName="com.google.android.GoogleCameraEng" enabled="disable" />
+            <override-value packageName="com.google.android.apps.googlecamera.fishfood" enabled="disable" />
+            <!-- (New) Meet, formely Duo -->
+            <override-value packageName="com.google.android.apps.tachyon" enabled="disable" />
+            <!-- Original Meet -->
+            <override-value packageName="com.google.android.apps.meetings" enabled="disable" />
+            <!-- Youtube -->
+            <override-value packageName="com.google.android.youtube" enabled="disable"/>
+            <!-- Gmail -->
+            <override-value packageName="com.google.android.gm" enabled="disable" />
+            <!-- Chrome -->
+            <override-value packageName="com.android.chrome" enabled="disable" />
+            <!-- Google Drive -->
+            <override-value packageName="com.google.android.apps.docs" enabled="disable" />
+            <!-- Google Slides -->
+            <override-value packageName="com.google.android.apps.docs.editors.slides" enabled="disable" />
+            <!-- Phone -->
+            <override-value packageName="com.google.android.dialer" enabled="disable" />
+            <!-- Google Voice -->
+            <override-value packageName="com.google.android.apps.googlevoice" enabled="disable" />
+            <!-- Blogger -->
+            <override-value packageName="com.google.android.apps.blogger" enabled="disable" />
+            <!-- Jamboard -->
+            <override-value packageName="com.google.android.apps.jam" enabled="disable" />
+            <!-- Android Device Policy -->
+            <override-value packageName="com.google.android.apps.work.clouddpc" enabled="disable" />
+            <!-- Read along -->
+            <override-value packageName="com.google.android.apps.seekh" enabled="disable" />
+            <!-- Google Chat -->
+            <override-value packageName="com.google.android.apps.dynamite" enabled="disable" />
+            <!-- Crowdsource -->
+            <override-value packageName="com.google.android.apps.village.boond" enabled="disable" />
+            <!-- Google Overlay -->
+            <override-value packageName="com.google.android.apps.overlay" enabled="disable" />
+            <!-- Project Activate -->
+            <override-value packageName="com.google.android.apps.vision.switches" enabled="disable" />
+            <!-- CTSVerifier -->
+            <override-value packageName="com.android.cts.verifier" enabled="disable" />
+            <!-- Camera Diagnostic Tool -->
+            <override-value packageName="com.google.android.apps.diagnosticstool" enabled="disable" />
+        </validated>
+    </change-overrides>
+</overrides>
