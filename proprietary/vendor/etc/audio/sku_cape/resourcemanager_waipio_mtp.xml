@@ -1073,7 +1073,7 @@
             <param concurrent_capture="false" />
             <param concurrent_voice_call="false" />
             <param concurrent_voip_call="false" />
-            <param low_latency_bargein_enable="true" />
+            <param low_latency_bargein_enable="false" />
             <param mmap_enable="true" />
             <param mmap_buffer_duration="5000" />
             <param mmap_frame_length="5" /> <!-- 5ms duration of data -->

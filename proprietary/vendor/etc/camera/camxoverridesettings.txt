@@ -2,21 +2,14 @@
 multiCameraLogicalXMLFile=liuqin.xml
 
 # Camera Log
-overrideLogLevels=0x1
-logInfoMask=0
-logWarningMask=0
-logConfigMask=0
-logVerboseMask=0
-logCoreCfgMask=0
-logRequestMapping=FALSE
-systemLogEnable=TRUE
-enableAsciiLogging=0
-enableTxtLogging=0
-enableCameraCoreDumpBinary=FALSE
-enableCameraCoreDumpText=FALSE
-raiserecoverysigabrt=FALSE
+logInfoMask=0x10098
+overrideLogLevels=0x1F
+logChxOemInfoMask=0x4
+enableTxtLogging=1
+offlineLogNumber=14
+raiserecoverysigabrt=TRUE
 offlineLoggerEnableBackupLog=FALSE
-numConsecutiveRecovery=10
+numConsecutiveRecovery=5
 
 # SAT
 enablePostZoomFOV=1
@@ -294,7 +287,5 @@ enableVideoChatPowerSave=TRUE
 
 # enable FaceCenter
 isFaceCenterSupported=TRUE
-
-previewPriority=110
 
 halBufferCacheMax=8

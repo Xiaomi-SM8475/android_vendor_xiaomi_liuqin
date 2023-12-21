@@ -439,25 +439,25 @@
         <ell_light_margin>2</ell_light_margin>
         <ell_similar_hist_thres>0.85</ell_similar_hist_thres>
         <ell_bright_thres>240</ell_bright_thres>
-        <ell_over_exp_ratio_thres>1</ell_over_exp_ratio_thres>   
+        <ell_over_exp_ratio_thres>1</ell_over_exp_ratio_thres>
   </ell_mode>
 
   <hdr_trigger_0 feature="wide" enable="true">
         <hdr_dead_dark_thres>10</hdr_dead_dark_thres>
         <hdr_over_exp_thres>254</hdr_over_exp_thres>
-        <hdr_dead_dark_ratio_thres>0.05</hdr_dead_dark_ratio_thres>
+        <hdr_dead_dark_ratio_thres>0.1</hdr_dead_dark_ratio_thres>
         <hdr_over_exp_ratio_thres>0.005</hdr_over_exp_ratio_thres>
         <hdr_dead_centerdark_ratio_thres>1</hdr_dead_centerdark_ratio_thres>
-        <hdr_over_centerexp_ratio_thres>1</hdr_over_centerexp_ratio_thres>        
+        <hdr_over_centerexp_ratio_thres>1</hdr_over_centerexp_ratio_thres>
   </hdr_trigger_0>
 
   <hdr_trigger_1 feature="uw" enable="true">
         <hdr_dead_dark_thres>10</hdr_dead_dark_thres>
         <hdr_over_exp_thres>254</hdr_over_exp_thres>
-        <hdr_dead_dark_ratio_thres>0.1</hdr_dead_dark_ratio_thres>
+        <hdr_dead_dark_ratio_thres>0.05</hdr_dead_dark_ratio_thres>
         <hdr_over_exp_ratio_thres>0.005</hdr_over_exp_ratio_thres>
         <hdr_dead_centerdark_ratio_thres>1</hdr_dead_centerdark_ratio_thres>
-        <hdr_over_centerexp_ratio_thres>1</hdr_over_centerexp_ratio_thres>        
+        <hdr_over_centerexp_ratio_thres>1</hdr_over_centerexp_ratio_thres>
   </hdr_trigger_1>
 
   <hdr_trigger_2 feature="tele" enable="true">

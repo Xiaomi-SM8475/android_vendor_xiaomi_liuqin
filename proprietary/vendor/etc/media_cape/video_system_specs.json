@@ -23,7 +23,7 @@
             // encoder csc enable
             "enc_csc_enable": false,
             // perf hints support for decoder and encoder
-            "perf_control_enable": false,
+            "perf_control_enable": true,
             // this enables pipeline code for querying capabilities and creating codecs
             "pipelining": true,
             // this enables pre-processing pipeline
@@ -37,6 +37,8 @@
             // CSC and converting images to other format and
             // Rotating the frame etc
             "vtxr_enable": true,
+            // this will enable software I/O chache coherency
+            "sw_cache_coherency": false,
             "vpp_lazy_init": true
         },
         "Presets": {
