@@ -1250,7 +1250,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/liuqin/proprietary/vendor/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so
 
 PRODUCT_PACKAGES += \
-    IFAAService \
     SoterService \
     TimeService \
     SmartDisplayPrebuilt \
