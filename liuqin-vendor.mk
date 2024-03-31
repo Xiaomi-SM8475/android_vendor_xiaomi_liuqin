@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/liuqin/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/xiaomi/liuqin/proprietary/vendor/bin/trusteduilistener:$(TARGET_COPY_OUT_VENDOR)/bin/trusteduilistener \
     vendor/xiaomi/liuqin/proprietary/vendor/bin/vendor.dpmd:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.dpmd \
-    vendor/xiaomi/liuqin/proprietary/vendor/bin/vendor.qti.qspmhal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.qti.qspmhal@1.0-service \
     vendor/xiaomi/liuqin/proprietary/vendor/bin/vppservice:$(TARGET_COPY_OUT_VENDOR)/bin/vppservice \
     vendor/xiaomi/liuqin/proprietary/vendor/bin/wfdhdcphalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wfdhdcphalservice \
     vendor/xiaomi/liuqin/proprietary/vendor/bin/wfdvndservice:$(TARGET_COPY_OUT_VENDOR)/bin/wfdvndservice \
@@ -263,7 +262,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
-    vendor/xiaomi/liuqin/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/init/vendor.sensors.qesdk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qesdk.rc \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
@@ -292,7 +290,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/seccomp_policy/qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdk.policy \
-    vendor/xiaomi/liuqin/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/seccomp_policy/sensors-qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/sensors-qesdk.policy \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
@@ -1223,8 +1220,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/liuqin/proprietary/vendor/lib64/vendor.qti.qesdhal@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdhal@1.1-impl.so \
     vendor/xiaomi/liuqin/proprietary/vendor/lib64/vendor.qti.qesdhal@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdhal@1.1.so \
     vendor/xiaomi/liuqin/proprietary/vendor/lib64/vendor.qti.qesdsys-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdsys-V1-ndk_platform.so \
-    vendor/xiaomi/liuqin/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0-impl.so \
-    vendor/xiaomi/liuqin/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0.so \
     vendor/xiaomi/liuqin/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/xiaomi/liuqin/proprietary/vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so \
     vendor/xiaomi/liuqin/proprietary/vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.bgservice@1.0.so \
