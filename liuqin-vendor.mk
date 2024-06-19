@@ -1243,8 +1243,8 @@ PRODUCT_PACKAGES += \
     manifest_lahaina_identity \
     manifest_non_qmaa \
     manifest_non_qmaa_extn \
-    vendor.dolby.hardware.dms \
     manifest_vendor.xiaomi.hardware.mlipay \
+    vendor.dolby.hardware.dms \
     vendor.qti.hardware.limits-service \
     vendor.qti.hardware.vpp@2.0-service \
     vendor.xiaomi.hardware.micharge@1.0 \
