@@ -12,7 +12,7 @@ service vendor.camera-provider-2-7 /vendor/bin/hw/vendor.qti.camera.provider@2.7
     user cameraserver
     group system audio camera input drmrpc oem_2907
     ioprio rt 4
-    capabilities SYS_NICE
+    capabilities SYS_NICE IPC_LOCK
     task_profiles CameraServiceCapacity CameraServicePerformance CameraProcessProviderMemcg
     writepid /dev/memcg/camera/provider/cgroup.procs
     writepid /sys/kernel/reserve_pool/pid
