@@ -3568,7 +3568,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/sound_trigger.primary.taro.so"],
-			shared_libs: ["libbase", "liblog", "libcutils", "libaudioutils", "libexpat", "libhidlbase", "libprocessgroup", "libutils", "libar-pal", "libxlog", "vendor.qti.hardware.ListenSoundModel@1.0-impl", "vendor.qti.hardware.ListenSoundModel@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbase", "liblog", "libcutils", "libaudioutils", "libexpat", "libhidlbase", "libprocessgroup", "libutils", "libar-pal", "libxlog", "libmisight", "vendor.qti.hardware.ListenSoundModel@1.0-impl", "vendor.qti.hardware.ListenSoundModel@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -4366,7 +4366,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libagm.so"],
-			shared_libs: ["libar-gsl", "liblog", "liblx-osal", "libaudioroute", "libats", "libtinyalsa", "libaudio_log_utils", "libexpat", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libar-gsl", "liblog", "liblx-osal", "libaudioroute", "libats", "libmisight", "libcutils", "libtinyalsa", "libaudio_log_utils", "libexpat", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -4451,7 +4451,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libagmmixer.so"],
-			shared_libs: ["libtinyalsa", "libexpat", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libtinyalsa", "libexpat", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -4640,7 +4640,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libar-gsl.so"],
-			shared_libs: ["liblx-osal", "libar-acdb", "liblx-ar_util", "libar-gpr", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblx-osal", "libar-acdb", "liblx-ar_util", "libar-gpr", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -6332,6 +6332,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libkaraokepal",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libkaraokepal.so"],
+			shared_libs: ["libaudioroute", "libaudioutils", "libcutils", "libexpat", "liblog", "libar-pal", "audio.primary.taro_liuqin", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libkeymasterdeviceutils",
 	owner: "xiaomi",
 	strip: {
@@ -7089,6 +7106,23 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmis_plugin_morpho.so"],
 			shared_libs: ["libmorpho_video_stabilizer", "libmorpho_ubwc", "liblog", "libchilog", "libcutils", "libutils", "libui", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmisight",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmisight.so"],
+			shared_libs: ["liblog", "libcutils", "libutils", "libjsoncpp", "libc", "libc++", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -9129,7 +9163,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libvpplibrary.so"],
-			shared_libs: ["libvppcommon", "libhidlbase", "libutils", "vendor.qti.hardware.capabilityconfigstore@1.0", "libcutils", "liblog", "libqdMetaData", "libdmabufheap", "libvpphvx", "libcdsprpc", "libvpphcp", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libvppcommon", "libhidlbase", "libutils", "vendor.qti.hardware.capabilityconfigstore@1.0", "libcutils", "liblog", "libqdMetaData", "libdmabufheap", "libmisight", "libvpphvx", "libcdsprpc", "libvpphcp", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -9537,7 +9571,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libxmi_slow_motion_mein.so"],
-			shared_libs: ["libOpenCL", "liblog", "libcdsprpc", "libSNPE", "libmialgo_utils", "libm", "libdl", "libc", ],
+			shared_libs: ["libOpenCL", "liblog", "libcdsprpc", "libSNPE", "libc++_shared", "libmialgo_utils", "libm", "libdl", "libc", ],
 		},
 	},
 	compile_multilib: "64",
