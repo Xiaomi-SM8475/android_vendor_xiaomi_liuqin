@@ -660,7 +660,7 @@ PRODUCT_PACKAGES += \
     camera.xiaomi \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
-    fingerprint.fpc \
+    fingerprint.fpc.default \
     gyro_fusion_interface \
     sound_trigger.primary.taro \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \

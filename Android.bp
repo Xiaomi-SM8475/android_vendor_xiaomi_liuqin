@@ -3524,14 +3524,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "fingerprint.fpc",
+	name: "fingerprint.fpc.default",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/fingerprint.fpc.so"],
+			srcs: ["proprietary/vendor/lib64/hw/fingerprint.fpc.default.so"],
 			shared_libs: ["liblog", "libutils", "libhidlbase", "libhidltransport", "libhwbinder", "libcutils", "libQSEEComAPI", "libion", "libdmabufheap", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
