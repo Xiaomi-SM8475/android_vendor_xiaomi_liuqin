@@ -88,7 +88,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/c2.dolby.egl.so"],
-			shared_libs: ["libui", "libGLESv3", "libEGL", "liblog", "libcutils", "libstagefright_foundation", "libnativewindow", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libui", "libGLESv3", "libEGL", "liblog", "libcutils", "libstagefright_foundation", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
