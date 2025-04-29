@@ -220,6 +220,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/media_codecs_performance_cape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_cape.xml \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/media_codecs_performance_cape_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_cape_vendor.xml \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/media_codecs_system_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_system_default.xml \
+    vendor/xiaomi/liuqin/proprietary/vendor/etc/media_codecs_with_dolby_cape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_with_dolby_cape.xml \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/xiaomi/liuqin/proprietary/vendor/etc/media_profiles_cape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_cape.xml \
