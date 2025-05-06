@@ -1175,6 +1175,8 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service-qti-rkp.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_lahaina_identity.xml \
+    manifest_non_qmaa.xml \
+    manifest_non_qmaa_extn.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     vendor.dolby.hardware.dms.xml \
     vendor.qti.hardware.limits-service.xml \
