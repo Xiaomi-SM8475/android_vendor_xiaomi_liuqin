@@ -904,6 +904,16 @@ PRODUCT_PACKAGES += \
     libqcbor \
     libqcci_legacy \
     libqcmaputils \
+    libqcodec2_base_liuqin \
+    libqcodec2_basecodec_liuqin \
+    libqcodec2_core_liuqin \
+    libqcodec2_filterbase_liuqin \
+    libqcodec2_hooks_liuqin \
+    libqcodec2_mockfilter_liuqin \
+    libqcodec2_mockqc2filter_liuqin \
+    libqcodec2_platform_liuqin \
+    libqcodec2_utils_liuqin \
+    libqcodec2_v4l2codec_liuqin \
     libqdi \
     libqdp \
     libqdpr \
