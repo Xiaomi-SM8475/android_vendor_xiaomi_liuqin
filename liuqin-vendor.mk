@@ -786,6 +786,7 @@ PRODUCT_PACKAGES += \
     libcom.xiaomi.pluginutils \
     libconfigdb \
     libcpion \
+    libcrussp \
     libcv_common \
     libcvp2_1 \
     libcvpcpuRev_skel \
