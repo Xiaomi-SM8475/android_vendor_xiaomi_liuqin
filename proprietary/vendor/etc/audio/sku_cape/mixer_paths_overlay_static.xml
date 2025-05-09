@@ -257,7 +257,6 @@
         <ctl name="TL ASPTX Ref" value="Ref" />
         <ctl name="TL AMP PCM Gain" value="5" />
         <ctl name="TL AMP Enable Switch" value="1" />
-        <ctl name="TL Fast Use Case Delta File" value="TL-handset.txt" />
     </path>
 
     <path name="handset-mic">
