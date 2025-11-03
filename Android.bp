@@ -7,7 +7,7 @@ soong_namespace {
         "vendor/qcom/common/system/telephony",
         "vendor/qcom/common/vendor/adreno-s",
         "vendor/qcom/common/vendor/display/5.10",
-        "vendor/qcom/common/vendor/media",
+        "vendor/qcom/common/vendor/media/5.10",
     ],
 }
 
@@ -7629,6 +7629,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     relative_install_path: "hw",
     prefer: true,
+    overrides: [
+        "audio.primary.taro",
+    ],
     soc_specific: true,
 }
 
@@ -15237,6 +15240,9 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    overrides: [
+        "libqcodec2_base",
+    ],
     soc_specific: true,
 }
 
@@ -15270,6 +15276,9 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    overrides: [
+        "libqcodec2_basecodec",
+    ],
     soc_specific: true,
 }
 
@@ -15286,6 +15295,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libqcodec2_core.so",
             ],
             shared_libs: [
+                "libcodec2_shim",
                 "libutils",
                 "libcutils",
                 "liblog",
@@ -15305,6 +15315,9 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    overrides: [
+        "libqcodec2_core",
+    ],
     soc_specific: true,
 }
 
@@ -15338,6 +15351,9 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    overrides: [
+        "libqcodec2_filterbase",
+    ],
     soc_specific: true,
 }
 
@@ -15368,6 +15384,9 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    overrides: [
+        "libqcodec2_hooks",
+    ],
     soc_specific: true,
 }
 
@@ -15402,6 +15421,9 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    overrides: [
+        "libqcodec2_mockfilter",
+    ],
     soc_specific: true,
 }
 
@@ -15436,6 +15458,9 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    overrides: [
+        "libqcodec2_mockqc2filter",
+    ],
     soc_specific: true,
 }
 
@@ -15468,6 +15493,9 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    overrides: [
+        "libqcodec2_platform",
+    ],
     soc_specific: true,
 }
 
@@ -15509,6 +15537,9 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    overrides: [
+        "libqcodec2_utils",
+    ],
     soc_specific: true,
 }
 
@@ -15543,6 +15574,9 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    overrides: [
+        "libqcodec2_v4l2codec",
+    ],
     soc_specific: true,
 }
 
@@ -16655,6 +16689,9 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    overrides: [
+        "libsdmextension",
+    ],
     soc_specific: true,
 }
 
@@ -22075,6 +22112,9 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    overrides: [
+        "cnss-daemon",
+    ],
     soc_specific: true,
 }
 
