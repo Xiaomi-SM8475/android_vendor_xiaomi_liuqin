@@ -707,6 +707,7 @@ PRODUCT_PACKAGES += \
     lib_bt_ble \
     lib_bt_bundle \
     lib_bt_lhdc \
+    lib_misound_asc \
     libadm \
     libadsp_default_listener \
     libadsprpc \

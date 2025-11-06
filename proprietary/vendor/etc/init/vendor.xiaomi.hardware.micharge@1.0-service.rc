@@ -15,6 +15,10 @@ on property:dev.bootcomplete=1
     chown system system /sys/class/power_supply/battery/lpd_update_en
     chown system system /sys/class/power_supply/battery/smart_chg
     chown system system /sys/class/qcom-battery/reverse_chg_mode
+    chown system system /sys/class/qcom-battery/batt_sn
+    chown system system /sys/class/qcom-battery/max_life_vol
+    chown system system /sys/class/qcom-battery/max_life_temp
+    chown system system /sys/class/qcom-battery/over_vol_duration
     chown system system /sys/class/qcom-battery/bt_state
     chown system system /sys/class/qcom-battery/rx_cr
     chown system system /sys/class/qcom-battery/input_suspend

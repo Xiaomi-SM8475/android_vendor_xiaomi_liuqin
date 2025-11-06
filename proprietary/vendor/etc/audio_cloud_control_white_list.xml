@@ -40,6 +40,8 @@
         <com.miui.screenrecorder/>
         <com.quicinc.voice.activation/>
         <com.whatsapp/>
+        <com.alibaba.android.rimet/>
+        <com.tencent.wemeet.app/>
     </record_unsilence_app_name_list>
     <property_int_list>
     </property_int_list>
